@@ -4,7 +4,7 @@ import CoreImage
 
 public struct FilterHighlights: Filtering, Equatable, Codable {
 
-  public static let range: ParameterRange<Double, FilterHighlights> = .init(min: 0, max: 1)
+  public static let range: ParameterRange<Double, FilterHighlights> = .init(min: -1, max: 1)
 
   public var value: Double = 0
 
